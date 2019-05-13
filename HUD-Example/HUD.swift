@@ -8,6 +8,30 @@
 
 import UIKit
 
-class HUD: NSObject {
 
+let PNHUDTime = 2.0
+
+
+class HUD: NSObject {
+    
+    //显示文字
+    class func showText(_ text: String? = nil) {
+        MBProgressHUD.lc_showMessage(text);
+        
+        if let message = text {
+            print(message);
+        }
+    }
+    
+    //显示等待的 圈圈
+    class func showWaiting(info:String? = nil) {
+        MBProgressHUD.lc_showActivityMessage(info);
+    }
+    
+    
+    //消失掉文字 或者 圈圈
+    class func dismiss() {
+        MBProgressHUD.lc_hide();
+    }
 }
+
