@@ -8,6 +8,7 @@
 
 
 #import "MBProgressHUD.h"
+#import "MBProgressHUD+LCManager.h"
 
 @interface MBProgressHUD ()
 
