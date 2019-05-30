@@ -7,7 +7,7 @@
 //
 
 
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 #import "MBProgressHUD+LCManager.h"
 
 @interface MBProgressHUD ()
