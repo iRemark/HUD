@@ -12,7 +12,7 @@
 
 //hud 的封装
 #import <MBProgressHUD/MBProgressHUD.h>
-#import "MBProgressHUD+LCManager.h"
+#import "MBProgressHUD+Addtional.h"
 
 
 #endif /* HUD_Example_Bridging_Header_h */

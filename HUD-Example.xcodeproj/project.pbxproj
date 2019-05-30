@@ -16,7 +16,7 @@
 		1366050422893E0900E27CE3 /* HUD_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366050322893E0900E27CE3 /* HUD_ExampleUITests.swift */; };
 		1366051222893E2400E27CE3 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366051122893E2400E27CE3 /* HUD.swift */; };
 		13850BC522A0183600BC82E2 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13850BC322A0183600BC82E2 /* MBProgressHUD.bundle */; };
-		13850BC622A0183600BC82E2 /* MBProgressHUD+LCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13850BC422A0183600BC82E2 /* MBProgressHUD+LCManager.m */; };
+		13850BC622A0183600BC82E2 /* MBProgressHUD+Addtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 13850BC422A0183600BC82E2 /* MBProgressHUD+Addtional.m */; };
 		89C75AC2D57C372E969A9DFA /* Pods_iOS_HUD_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914CEA19CFABAF6939DADEA6 /* Pods_iOS_HUD_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +53,9 @@
 		1366050522893E0900E27CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1366051122893E2400E27CE3 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		1366051E22894D7900E27CE3 /* HUD_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUD_Example-Bridging-Header.h"; sourceTree = "<group>"; };
-		13850BC122A0183600BC82E2 /* MBProgressHUD+LCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LCManager.h"; sourceTree = "<group>"; };
+		13850BC122A0183600BC82E2 /* MBProgressHUD+Addtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Addtional.h"; sourceTree = "<group>"; };
 		13850BC322A0183600BC82E2 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		13850BC422A0183600BC82E2 /* MBProgressHUD+LCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LCManager.m"; sourceTree = "<group>"; };
-		13850BC722A0188900BC82E2 /* MBProgressHUD+LCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LCExtension.h"; sourceTree = "<group>"; };
+		13850BC422A0183600BC82E2 /* MBProgressHUD+Addtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Addtional.m"; sourceTree = "<group>"; };
 		369C806AA4B057FF1A43B811 /* Pods-iOS-HUD-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-HUD-Example.release.xcconfig"; path = "Target Support Files/Pods-iOS-HUD-Example/Pods-iOS-HUD-Example.release.xcconfig"; sourceTree = "<group>"; };
 		66C955A185FEE93A77C0745A /* Pods-iOS-HUD-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-HUD-Example.debug.xcconfig"; path = "Target Support Files/Pods-iOS-HUD-Example/Pods-iOS-HUD-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		914CEA19CFABAF6939DADEA6 /* Pods_iOS_HUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_HUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,9 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				13850BC322A0183600BC82E2 /* MBProgressHUD.bundle */,
-				13850BC722A0188900BC82E2 /* MBProgressHUD+LCExtension.h */,
-				13850BC122A0183600BC82E2 /* MBProgressHUD+LCManager.h */,
-				13850BC422A0183600BC82E2 /* MBProgressHUD+LCManager.m */,
+				13850BC122A0183600BC82E2 /* MBProgressHUD+Addtional.h */,
+				13850BC422A0183600BC82E2 /* MBProgressHUD+Addtional.m */,
 			);
 			path = HudExtension;
 			sourceTree = "<group>";
@@ -355,7 +353,7 @@
 			files = (
 				1366051222893E2400E27CE3 /* HUD.swift in Sources */,
 				136604E622893E0700E27CE3 /* ViewController.swift in Sources */,
-				13850BC622A0183600BC82E2 /* MBProgressHUD+LCManager.m in Sources */,
+				13850BC622A0183600BC82E2 /* MBProgressHUD+Addtional.m in Sources */,
 				136604E422893E0700E27CE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,8 +6,7 @@
 //  Copyright © 2017年 文波. All rights reserved.
 //
 
-#import "MBProgressHUD+LCManager.h"
-#import "MBProgressHUD+LCExtension.h"
+#import "MBProgressHUD+Addtional.h"
 #import <objc/runtime.h>
 
 
@@ -17,7 +16,7 @@ NSTimeInterval const kActivityMinDismissTime = 0.5f;
 
 static char kWBHUDCancelKey;
 
-@implementation MBProgressHUD (WBAddtional)
+@implementation MBProgressHUD (Addtional)
 
 /** < 创建HUD > */
 + (MBProgressHUD *)lc_createHUD:(UIView *)view {
